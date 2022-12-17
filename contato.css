@@ -1,0 +1,98 @@
+body{
+	background: url(Imagens/Fundos/fundo1.jpg) fixed;
+}
+
+.cabecalho {
+	height: 20vh;
+	width: 35vw;
+	margin: 0 auto;
+}
+
+.logo img{
+	display: block;
+ 	margin-left: auto;
+	margin-right: auto;
+	height: 204px;
+	width: 643px;
+}
+
+.botoes {
+	height: 5vh;
+	width: 95vw;
+	margin: 0 auto;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+
+	justify-content: space-evenly;
+}
+
+.item {
+	background-color: black;
+	padding: 2px;
+	width: 140px;
+	color: white;
+	border-radius: 10%;
+
+	text-align: center;
+	font-size: 24px;
+	line-height: 45px;
+}
+
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	color: white;
+	font-size: 48px;
+}
+
+p{
+	text-align: center;
+	color: white;
+	font-size: 32px;
+}
+
+.musica {
+	margin-top: 2em; 
+	text-align: center;
+}
+
+.principal{
+	background-color: #0d144f;
+	width: 60vw;
+
+	border: 0.5em solid #1f30c2;
+	padding: 1em;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+	justify-content: space-evenly;
+
+	text-align: center;
+}
+
+.email {
+	width: 109px;
+	height: 80px;
+}
+
+.facebook {
+	width: 80px;
+	height: 80px;
+}
+
+.instagram {
+	width: 80px;
+	height: 80px;
+}
+
